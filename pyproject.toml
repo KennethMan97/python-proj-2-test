@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-proj-2-test"
+version = "0.1.0"
+description = "test project 2"
+authors = ["Kenneth Man <kenneth.man@ntegra.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+python-proj-1-test = {git = "https://github.com/KennethMan97/python-proj-1-test.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
